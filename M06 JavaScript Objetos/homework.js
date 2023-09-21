@@ -14,6 +14,7 @@ function crearGato(nombre, edad) {
    newObject.meow = function(){return('Meow!')}
    return newObject;
 }
+console.log(crearGato('Carlos', 53));
 
 function nuevoUsuario(nombre, email, password) {
    // Debes crear un nuevo objeto.
